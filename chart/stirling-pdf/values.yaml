@@ -17,11 +17,11 @@ commonLabels: {}
 
 envs: []
 # - name: UI_APP_NAME
-#   value: "Stirling PDF"
+#   value: "PDF Tools"
 # - name: UI_HOME_DESCRIPTION
 #   value: "Your locally hosted one-stop-shop for all your PDF needs."
 # - name: UI_APP_NAVBAR_NAME
-#   value: "Stirling PDF"
+#   value: "PDF Tools"
 # - name: ALLOW_GOOGLE_VISIBILITY
 #   value: "true"
 # - name: APP_ROOT_PATH

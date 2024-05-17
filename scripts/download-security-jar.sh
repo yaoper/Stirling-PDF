@@ -1,4 +1,4 @@
-echo "Running Stirling PDF with DOCKER_ENABLE_SECURITY=${DOCKER_ENABLE_SECURITY} and VERSION_TAG=${VERSION_TAG}"
+echo "Running PDF Tools with DOCKER_ENABLE_SECURITY=${DOCKER_ENABLE_SECURITY} and VERSION_TAG=${VERSION_TAG}"
 # Check for DOCKER_ENABLE_SECURITY and download the appropriate JAR if required
 if [ "$DOCKER_ENABLE_SECURITY" = "true" ] && [ "$VERSION_TAG" != "alpha" ]; then
     if [ ! -f app-security.jar ]; then

@@ -237,7 +237,7 @@ image=$(pwd)/docs/stirling-transparent.svg
 
 cat > ~/.local/share/applications/Stirling-PDF.desktop <<EOF
 [Desktop Entry]
-Name=Stirling PDF;
+Name=PDF Tools;
 GenericName=Launch StirlingPDF and open its WebGUI;
 Category=Office;
 Exec=xdg-open http://localhost:8080 && nohup $location bootRun &;
@@ -329,7 +329,7 @@ Remember to set the necessary environment variables before running the project i
 You can do this in the terminal by using the `export` command or -D argument to java -jar command:
 
 ```bash
-export APP_HOME_NAME="Stirling PDF"
+export APP_HOME_NAME="PDF Tools"
 or
--DAPP_HOME_NAME="Stirling PDF"
+-DAPP_HOME_NAME="PDF Tools"
 ```
