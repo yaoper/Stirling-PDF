@@ -20,7 +20,7 @@ class AppUpdateService {
     public boolean shouldShow() {
         boolean showUpdate = applicationProperties.getSystem().getShowUpdate();
         boolean showAdminResult = (showAdmin != null) ? showAdmin.getShowUpdateOnlyAdmins() : true;
-//        return showUpdate && showAdminResult;
+        //        return showUpdate && showAdminResult;
         return false;
     }
 }
